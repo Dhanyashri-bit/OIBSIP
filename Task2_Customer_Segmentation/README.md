@@ -1,7 +1,7 @@
 # Customer Segmentation Analysis
 
 ## Objective
-Segment customers based on purchasing behaviour using RFM Analysis and K-Means clustering.
+Segment customers based on purchasing behaviour using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering.
 
 ## Technologies Used
 - Python
@@ -13,12 +13,15 @@ Segment customers based on purchasing behaviour using RFM Analysis and K-Means c
 - Jupyter Notebook
 
 ## Dataset
-Online Retail Dataset (UCI/Kaggle)
+Online Retail Dataset
+
+Source:
+https://archive.ics.uci.edu/dataset/352/online+retail
 
 ## Features
 - Data Cleaning
 - RFM Analysis
-- StandardScaler
+- Data Standardization
 - Elbow Method
 - K-Means Clustering
 - Cluster Visualization
@@ -26,10 +29,10 @@ Online Retail Dataset (UCI/Kaggle)
 - Marketing Recommendations
 
 ## Results
-The model identified four customer segments:
+The project identified four customer segments:
 - Regular Customers
 - At-Risk Customers
-- VIP Customers
+- VIP / High-Value Customers
 - Loyal Customers
 
 ## Author
